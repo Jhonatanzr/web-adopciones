@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>PetHome - Adopción de Mascotas</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./images/logo.svg" alt="PetHome Logo">
+                <span>PetHome</span>
+            </div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#disponibles">Disponibles</a></li>
+                <li><a href="#adopcion">Adopción</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Adopta una Mascota</h1>
+            <p><strong>Bienvenidos</strong> a PetHome, tu página de adopción de mascotas. <em>Aquí</em> podrás encontrar a tu nuevo mejor amigo.</p>
+            <p>Las mascotas brindan <u>amor incondicional</u> y necesitan un hogar lleno de cariño.</p>
+        </section>
+
+        <section id="beneficios">
+            <h2>Beneficios de adoptar</h2>
+            <ul>
+                <li>Compañía incondicional</li>
+                <li>Mejoras en la salud mental</li>
+                <li>Apoyo a animales en situación de calle</li>
+            </ul>
+        </section>
+
+        <section id="proceso">
+            <h2>Pasos para adoptar</h2>
+            <ol>
+                <li>Escoge tu mascota</li>
+                <li>Completa el formulario de adopción</li>
+                <li>Espera la visita de evaluación</li>
+                <li>Recoge a tu nueva mascota</li>
+            </ol>
+        </section>
+
+        <section id="galeria">
+            <h2>Algunos de nuestros peludos amigos</h2>
+            <div class="gallery">
+                <img src="./images/m1_1280x853.jpg" alt="Perro adorable">
+                <img src="./images/m2_1280x853.jpg" alt="Perro adorable">
+                <img src="./images/m3_1280x853.jpg" alt="Perro adorable">
+            </div>
+            <p>Visita nuestro <a href="https://www.fundaciontepa.org/adopta/">blog</a> para leer más historias sobre adopciones exitosas.</p>
+        </section>
+
+        <section id="video">
+            <h2>¿Adoptar o rescatar una mascota?</h2>
+            <video src="./media/¿Adoptar o rescatar una mascota.mp4" controls autoplay loop="false"></video>
+        </section>
+
+        <section id="disponibles">
+            <h2>Mascotas Disponibles para Adopción</h2>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Raza</th>
+                </tr>
+                <tr>
+                    <td>Luna</td>
+                    <td>2 años</td>
+                    <td>Labrador</td>
+                </tr>
+                <tr>
+                    <td>Max</td>
+                    <td>4 años</td>
+                    <td>Pastor Alemán</td>
+                </tr>
+                <tr>
+                    <td>Simba</td>
+                    <td>1 año</td>
+                    <td>Mestizo</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="adopcion">
+            <h2>Formulario de Adopción</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div class="form-group">
+                    <label for="mascota">Mascota a Adoptar:</label>
+                    <input type="text" id="mascota" name="mascota" required>
+                </div>
+                <div class="form-group">
+                    <label for="comentarios">Comentarios:</label>
+                    <textarea id="comentarios" name="comentarios"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta? No dudes en contactarnos:</p>
+            <ul>
+                <li>Email: info@pethome.com</li>
+                <li>Teléfono: (123) 456-7890</li>
+                <li>Dirección: Calle Mascota 123, Ciudad Peluda</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 PetHome - Adopción de Mascotas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
